@@ -2,7 +2,7 @@
 ![Logo do projeto](https://raw.githubusercontent.com/LandGabriel/LoginPag/main/Login.png)
 
 # Página de Login
-
+:mag_right: [Veja o projeto](https://landgabriel.github.io/LoginPag/login.html)
 ## 🔥 Introdução
 
 Página de login web com todos itens necessários para a utilização 
