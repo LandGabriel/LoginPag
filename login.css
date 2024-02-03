@@ -143,3 +143,57 @@ footer {
         left: 20px;
         width: 100px;
     }
+/* Apply the same modifications for different screen sizes */
+@media screen and (max-width: 896px) {
+    * {
+        font-size: 16px; /* Adjust the font size for all elements */
+    }
+
+    section {
+        right: 0; /* Adjust the position for smaller screens */
+        max-width: 100%; /* Make the section width 100% for smaller screens */
+        padding: 1rem 2rem; /* Adjust padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Adjust font size for h1 on smaller screens */
+    }
+
+    .caixainput {
+        max-width: 280px; /* Adjust the maximum width for the input box */
+    }
+
+    .caixainput label {
+        font-size: 16px; /* Adjust font size for input labels */
+    }
+
+    .caixainput input {
+        height: 50px; /* Adjust the height of the input field */
+        padding: 0 20px; /* Adjust padding for the input field */
+    }
+
+    .esquecer {
+        margin: 30px 0; /* Adjust margin for the 'esquecer' class */
+        font-size: 0.7rem; /* Adjust font size for the 'esquecer' class */
+        padding: 5px; /* Adjust padding for the 'esquecer' class */
+    }
+
+    button {
+        width: 100%; /* Make the button width 100% for smaller screens */
+    }
+
+    .registro {
+        margin: 20px 0 5px; /* Adjust margin for the 'registro' class */
+        font-size: 0.8rem; /* Adjust font size for the 'registro' class */
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+footer
+display: none;
+}
